@@ -339,7 +339,7 @@
                 const userPrompt = elements.promptInput.value;
                 
                 const basePrompt = userPrompt ? `${userPrompt}` : `a ${topic} scene`;
-                const compositionalGuidance = `A scenic, wide-angle photograph of ${basePrompt}, in a ${topic} style. The scene is a beautiful background, with the main subject matter off to the sides, leaving a natural open area in the foreground. No central subject.`;
+                const compositionalGuidance = `Generate a scenic, wide-angle photograph of ${basePrompt}, in a ${topic} style. The scene is a background, and it is being ready for add on a new layer, with the main subject matter off to the sides, leaving a open area in the foreground. No central subject.`;
                 const finalPrompt = compositionalGuidance;
 
                 console.log(`Calling local proxy for prompt: "${finalPrompt}"`);
